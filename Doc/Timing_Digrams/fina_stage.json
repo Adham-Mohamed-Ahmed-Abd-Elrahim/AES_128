@@ -1,0 +1,24 @@
+{signal: [  
+   {name: 'clk', wave: 'lHlHlHlHlHlHlHlHlHlHlHlHl',},
+    //Inputs
+   {name: 'state', wave: 'x..3.4.................5.',data:['ACTIVE','FINAL_ROUND','IDLE']},
+   //{name: 'start', wave: '0..1.0.................'},
+   {name: 'round', wave: '3....3.............5.....', data: ['9', '10', '0', '4','5','6','7','8','9','10']},
+   //{name: 'load', wave: '0....1.0...............'},
+  {name: 'key_sel', wave: '9........................',data:['0']},
+   {name: 'round_key_en', wave: '0....1.0.............1.0.'},
+   {name: 'key_capture', wave: '0..................1.0...'},	
+   {name: 'done', wave: '0......................1.'},	
+   //{name: 'key_capture', wave: '0....1.0.....................'},
+   {name: 'round_timer', wave: '0..2...3.4.5.6.7.8.9.3.4.',data: ['0', '1', '2', '3','4','5','6','7','8','0','10']},
+   //output stages 
+   {name: 'rounded_state', wave: 'x......3.................',data:['round_state1']},
+   {name: 's_state', wave: 'x........4...............',data:['s_byte_state']},
+   {name: 'shift_rows', wave: 'x........5...............',data:['shift_rows']},
+   {name: 'mixed_state', wave: 'x................6.......',data:['mixed_state']},
+    {name: 'key_out', wave: 'x..................6.....',data:['new_key']},
+ 
+  		
+  ]
+}
+  

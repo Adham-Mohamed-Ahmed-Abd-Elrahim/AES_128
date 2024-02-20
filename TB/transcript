@@ -1,0 +1,45 @@
+# ERROR: No extended dataflow license exists
+# vsim work.AES_128_TB 
+# Start time: 09:44:41 on Feb 20,2024
+# Loading sv_std.std
+# Loading work.AES_128_TB
+# Loading work.aes_128
+# Loading work.mux
+# Loading work.add_round_key
+# Loading work.sub_bytes
+# Loading work.sbox
+# Loading work.shift_rows
+# Loading work.mix_column
+# Loading work.mix_column_process
+# Loading work.xtime
+# Loading work.delay_unit
+# Loading work.delay_train
+# Loading work.key_expansion
+# Loading work.rcon
+# Loading work.s_word
+# Loading work.aes_controller
+do {D:/Work Zone/Life After Graduation/Projects/AES 128/TB/wave.do}
+run
+# ============================================================
+# =====================main task=====================0
+# ============================================================
+# ============================================================
+# =====================clock_gen =====================0
+# ============================================================
+# ============================================================
+# =====================reset =====================0
+# ============================================================
+run
+# ============================================================
+# =====================data_entry =====================12
+# ============================================================
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

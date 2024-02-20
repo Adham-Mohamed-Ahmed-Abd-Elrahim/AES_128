@@ -1,0 +1,33 @@
+# ERROR: No extended dataflow license exists
+# vsim key_expansion 
+# Start time: 12:46:11 on Feb 16,2024
+# Loading sv_std.std
+# Loading work.key_expansion
+# Loading work.rcon
+# Loading work.s_word
+# Loading work.sbox
+# Loading work.delay_unit
+do {D:/Work Zone/Life After Graduation/Projects/AES 128/RTL/key_expansion.do}
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: R  Hostname: DESKTOP-OCCD24M  ProcessID: 9832
+#           Attempting to use alternate WLF file "./wlft5hagm0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5hagm0
+force -freeze sim:/key_expansion/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/key_expansion/rst_n 0 0
+force -freeze sim:/key_expansion/in_key 128'h5468617473206D79204B756E67204675 0
+run
+force -freeze sim:/key_expansion/round 1 0
+force -freeze sim:/key_expansion/rst_n St1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 22:58:30 on Feb 16,2024, Elapsed time: 10:12:19
+# Errors: 0, Warnings: 2
